@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table {
+        border: 3px solid black;
+        background-color: salmon;
+        text-align:left;
+
+      }
+      table tr, table td, table th {
+        border: 1px solid whitesmoke;
+        padding: 10px 20px;
+      }
+      table th {
+        background-color:navy;
+        color: white;
+        font-weight: 600;
+      }
+
+      
+    </style>
+
+</body>
+
+<table>
+    <tr>
+        <th>Öğrenci İsmi</th>
+        <th>Bölümü</th>
+        <th>Sınıfı</th>
+        <th>Okulu</th>
+    </tr>
+    <tr>
+        <td>Ali</td>
+        <td>Sayısal</td>
+        <td>12</td>
+        <td>Cumhuriyet Lisesi</td>
+        
+    </tr>
+    <tr>
+        <td>Ayşe</td>
+        <td rowspan="2">Sözel</td>
+        <td>10</td>
+        <td rowspan="3">Bartın Lisesi</td>
+    </tr>
+    <tr>
+        <td>Hakan</td>
+        
+        <td>9</td>
+        
+    </tr>
+    <tr>
+        <td>Selin</td>
+        <td>Eşit Ağırlık</td>
+        <td>11</td>
+        
+    </tr>
+</table>
+</html>
